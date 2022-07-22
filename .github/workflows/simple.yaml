@@ -12,3 +12,7 @@ jobs:
         run: |
           node -v
           npm -v
+      - name: Python step
+        run: |
+          import platform
+          print(platform.processor())
